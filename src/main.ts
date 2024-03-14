@@ -51,7 +51,7 @@ const CountryScheme = z.array(
       swe: z.object({ official: z.string(), common: z.string() }),
       tur: z.object({ official: z.string(), common: z.string() }),
       urd: z.object({ official: z.string(), common: z.string() }),
-      zho: z.object({ official: z.string(), common: z.string() }),
+      //zho: z.object({ official: z.string(), common: z.string() }),
     }),
     latlng: z.array(z.number()),
     landlocked: z.boolean(),
