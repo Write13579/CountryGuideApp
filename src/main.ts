@@ -55,7 +55,7 @@ const CountryScheme = z.array(
     }),
     latlng: z.array(z.number()),
     landlocked: z.boolean(),
-    borders: z.array(z.string()),
+    borders: z.array(z.string()).optional(),
     area: z.number(),
     demonyms: z.object({
       eng: z.object({ f: z.string(), m: z.string() }),
